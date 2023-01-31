@@ -1,0 +1,29 @@
+{
+  "name": "nodejs_project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/troll1922/nodeJS_project.git"
+  },
+  "keywords": [],
+  "author": "Aleksey Fomicev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/troll1922/nodeJS_project/issues"
+  },
+  "homepage": "https://github.com/troll1922/nodeJS_project#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-handlebars": "^6.0.7",
+    "mongoose": "^6.9.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
