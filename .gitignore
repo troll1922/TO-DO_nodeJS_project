@@ -3,3 +3,5 @@ cypress/dowloads
 cypress/reports
 cypress/screenshots
 cypress/videos
+allure-results
+allure-report
