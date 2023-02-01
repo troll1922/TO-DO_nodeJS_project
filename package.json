@@ -5,7 +5,10 @@
   "main": "index.js",
   "scripts": {
     "start": "node index",
-    "dev": "nodemon index"
+    "dev": "nodemon index",
+    "cypress:open": "cypress open",
+    "cypress-e2e": "cypress run",
+    "html-report": "cypress run --spec cypress/e2e/* --browser chrome --headed"
   },
   "repository": {
     "type": "git",
@@ -24,6 +27,8 @@
     "mongoose": "^6.9.0"
   },
   "devDependencies": {
+    "cypress": "^10.1.0",
+    "cypress-mochawesome-reporter": "^3.2.3",
     "nodemon": "^2.0.20"
   }
 }
