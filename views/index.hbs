@@ -8,10 +8,10 @@
       <label>
         {{#if completed}}
         <input type="checkbox" checked name="completed">
-        <span class="completed">{{title}}</span>
+        <span class="completed" data-test="todo-text">{{title}}</span>
         {{else}}
         <input type="checkbox" name="completed">
-        <span>{{title}}</span>
+        <span  data-test="todo-text">{{title}}</span>
         {{/if}}
 
         <input type="hidden" value="{{_id}}" name="id">
